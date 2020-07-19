@@ -1,0 +1,496 @@
+html {
+    background-color: #000;
+    color: #ff0505;
+    font-family: Bahnschrift Condensed;
+    overflow-x: hidden;
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+}
+
+.textheader {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -97px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #FF2020;
+    background-color: #000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #c9c9c9;
+}
+
+li a.active {
+    color: white;
+    background-color: #000;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.inline2 {
+    display: inline-block;
+}
+
+.left {
+    width: 1886px;
+}
+
+.right {
+    position: absolute;
+    width: 320px;
+    margin-top: 0px;
+    margin-left: -305px;
+    border-left: none;
+}
+
+.mySlides {
+    border: 1px solid #FF2020;
+    display: none;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.search {
+    width: 100%;
+    position: relative
+}
+
+.searchTerm {
+    float: left;
+    width: 100%;
+    border: 2px solid #FF2020;
+    padding: 5px;
+    height: 32px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: -21px;
+    margin-left: -65px;
+    color: #c9c9c9;
+}
+
+.searchTerm:focus {
+    color: #000;
+}
+
+.searchButton {
+    position: absolute;
+    right: -40px;
+    width: 38px;
+    height: 32px;
+    border: 1px solid #FF2020;
+    background: #000;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    padding-top: 16px;
+    margin-top: -21px;
+    margin-right: 60px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 19.7%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin: 20px;
+    margin-left: 30px;
+    display: inline-block;
+    border: 1px solid #FF2020;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card1 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+.card1 button:hover {
+    opacity: 0.7;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 30px;
+    border: 1px solid #FF2020;
+}
+
+.card2 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card2 button:hover {
+    opacity: 0.7;
+}
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 30px;
+    border: 1px solid #FF2020;
+}
+
+.card3 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card3 button:hover {
+    opacity: 0.7;
+}
+
+.card4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 30px;
+    border: 1px solid #FF2020;
+}
+
+.card4 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card4 button:hover {
+    opacity: 0.7;
+}
+
+.footer {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid #FF2020;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: -60px;
+
+}
+
+.footer2 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid #FF2020;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.bayonet_tiger {
+    float: right;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    font-family: Bahnschrift Condensed;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.pressme {
+    margin-bottom: -30px;
+    margin-left: 865px;
+}
+
+.bestelknop {}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.checkout-panel {
+    display: flex;
+    flex-direction: column;
+    width: 940px;
+    height: 900px;
+    margin-left: 515px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+}
+
+.panel-body {
+    padding: 45px 80px 0;
+    flex: 1;
+}
+
+.title {
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #2e2e2e;
+}
+
+.method {
+    display: flex;
+    flex-direction: column;
+    width: 382px;
+    height: 122px;
+    padding-top: 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.radio-input {
+    margin-top: 20px;
+}
+
+input[type='radio'] {
+    display: inline-block;
+}
+
+
+.input-fields label {
+    display: block;
+    margin-bottom: 10px;
+    color: #b4b4b4;
+}
+
+
+
+input[type='text'],
+input[type='password'] {
+    font-size: 16px;
+    width: 100%;
+    height: 32px;
+    padding-right: 40px;
+    padding-left: 16px;
+    color: #FF2020;
+    border: 1px solid #FF2020;
+    border-radius: 4px;
+    outline: none;
+
+}
+
+.blue-border {
+    border: 1px solid #FF2020;
+}
+
+input[type='tel'] {
+    font-size: 16px;
+    width: 100%;
+    height: 32px;
+    padding-right: 40px;
+    padding-left: 16px;
+    color: #FF2020;
+    border: 1px solid #FF2020;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 15px;
+}

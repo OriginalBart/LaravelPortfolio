@@ -1,0 +1,888 @@
+/*custom details*/
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f0d839;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+/* endcustom details*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 118px;
+    background-color: rgba(0, 0, 0, .4);
+    padding-left: 11.015625%;
+    padding-right: 11.015625%;
+}
+
+.header-top {
+    height: 54px;
+    border-bottom: 2px solid #717685;
+}
+
+.header-bottom figcaption {
+
+    font-size: 7px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.header-bottom figure {
+    margin-top: 12px;
+    float: left;
+}
+
+nav li {
+    display: inline-block;
+    width: calc(100% / 6.3);
+    padding-top: 21px;
+    padding-bottom: 21px;
+    text-align: center;
+}
+
+nav {
+    float: right;
+    width: 48.28125%
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav li:hover {
+    border-bottom: 2px solid #ffdd00;
+}
+
+#top {
+    background-image: url("../img/turtle.png");
+    min-height: 669px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+
+h1 span {
+    display: block;
+    font-size: 22px;
+}
+
+#top p {
+
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    width: 46.875%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.btn {
+    width: 173px;
+    height: 47px;
+    line-height: 47px;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.yellow {
+    background-color: #ffdd00;
+
+}
+
+#top .btn {
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.hotels {
+    min-height: 267px;
+    background-color: #ffdd00;
+    padding-top: 63px;
+
+}
+
+.hotels h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.hotels label {
+    display: block;
+}
+
+.hotels div {
+    display: inline-block;
+}
+
+.hotels form {
+    width: 84.6875%;
+    margin: 0 auto;
+}
+
+input {
+    border: none;
+    height: 32px;
+    border-radius: 2px;
+}
+
+.loco {
+    min-height: 490px;
+    display: flex;
+}
+
+.trein img {
+    width: 100%;
+    min-height: 490px;
+}
+
+.trein figure {
+    float: left;
+    max-width: 640px;
+    width: 100%;
+    min-height: 490px;
+
+}
+
+.fa-check-circle::before {
+    font-size: 20px;
+    color: #00a4ff;
+
+}
+
+.blur h6 {
+    font-size: 14px;
+    padding: 17px;
+    margin-left: 38px;
+}
+
+.blur p {
+    padding-top: 32px;
+    margin: 0px 0px 61px 50px;
+}
+
+.blur figure {
+    max-width: 640px;
+    width: 100%;
+    min-height: 490px;
+    float: left;
+    background-image: url('../img/BG.png');
+}
+
+.blur h2 {
+    padding-top: 70px;
+    margin: 0px 0px 10px 50px;
+}
+
+.ive {
+    float: left;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.respons:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 1035px) {
+    .ive {
+        width: 100%;
+    }
+}
+
+.loco h3 {
+    font-size: 22px;
+    text-align: left;
+    height: 47px;
+    line-height: 47px;
+    color: black;
+    font-weight: bold;
+}
+
+.proper {
+    min-height: 420px;
+    width: 100%;
+    display: inline-block;
+}
+
+.container {
+    display: table;
+    width: 100%;
+    max-height: 118px;
+
+}
+
+.child {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    width: 50%;
+}
+
+/* Relevant CSS stops here. Below here is just presentational. */
+
+.proper h2 {
+    margin: 61px 0px 61px 0px;
+    text-align: center;
+}
+
+.proper h1 {
+    margin-top: 0;
+}
+
+.proper p {
+    margin-bottom: 0;
+    max-width: 300px;
+    padding-left: 54px;
+}
+
+.fa-plane:before {
+    font-size: 36px;
+    line-height: 3;
+    color: #00a4ff;
+    margin-left: 147px;
+}
+
+.fa-university:before {
+    font-size: 36px;
+    line-height: 3;
+    color: #00a4ff;
+    margin-left: 147px;
+}
+
+.fa-train:before {
+    font-size: 36px;
+    line-height: 3;
+    color: #00a4ff;
+}
+
+.fa-bicycle:before {
+    font-size: 36px;
+    line-height: 3;
+    color: #00a4ff;
+}
+
+.fa-utensils:before {
+    font-size: 36px;
+    line-height: 3;
+    color: #00a4ff;
+    margin-left: 147px;
+}
+
+.fa-eye:before {
+    font-size: 36px;
+    line-height: 3;
+    color: #00a4ff;
+}
+
+#budget {
+    background-image: url("https://media.discordapp.net/attachments/497416706084306944/589801903777644544/budgetbackground.png");
+    min-height: 610px;
+    background-size: cover;
+}
+
+.buy {
+    background-color: #ffffff;
+    height: 329px;
+    width: 306px;
+    border-radius: 5px;
+    margin: 0 auto;
+
+}
+
+.fa-car::before {
+    font-size: 60px;
+    margin-left: 122px;
+
+}
+
+#budget h3 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 26px;
+
+
+}
+
+#budget p {
+    width: 319px;
+    height: 52px;
+    margin-top: 21px;
+    background-color: #ffdd00;
+    text-align: center;
+    padding-top: 14px;
+    font-size: 24px;
+
+}
+
+.fa-ul {
+    margin-top: 25px;
+    margin-left: 81px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.row {
+    padding-left: 128px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+    .column {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    #budget {
+        background-repeat: no-repeat;
+        background-image: url("https://media.discordapp.net/attachments/497416706084306944/589801903777644544/budgetbackground.png");
+    }
+
+    .row {
+        margin: 0 auto;
+    }
+}
+
+#budget h2 {
+    padding-top: 75px;
+    margin: 61px 0px 61px 0px;
+    text-align: center;
+
+}
+
+#pack {
+    min-height: 751px;
+    background-image: url("https://cdn.discordapp.com/attachments/497416706084306944/589830630003703825/poep.png");
+}
+
+.tou {
+    background-color: #fff;
+    width: 323px;
+    border-radius: 25px;
+    border-bottom-right-radius: inherit;
+    margin: 0 auto;
+}
+
+.tour {
+    background-color: #fff;
+    width: 331px;
+    border-radius: 25px;
+    border-bottom-left-radius: inherit;
+    margin: 0 auto;
+}
+
+.tours {
+    background-color: #fff;
+    max-width: 362px;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+
+img.huis {
+    margin-top: -20px;
+}
+
+#pack img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 20px;
+}
+
+#pack h2 {
+    padding-top: 75px;
+    margin: 0px 0px 61px 0px;
+    text-align: center;
+}
+
+#pack {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pack h5 {
+    text-align: center;
+}
+
+#pack h3 {
+    text-align: center;
+}
+
+#pack p {
+    text-align: center;
+
+}
+
+#pack h4 {
+    text-align: center;
+    padding-bottom: 29px;
+    padding-top: 19px;
+    height: 22px;
+    line-height: 22px;
+}
+
+#pack a {
+    width: 123px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.kolom {
+    float: left;
+    padding: 0px;
+}
+
+/* Clear floats after the columns */
+.rij:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rij {
+    padding-left: 128px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .kolom {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #pack {
+        background: cover;
+        background-image: url("https://cdn.discordapp.com/attachments/497416706084306944/589830630003703825/poep.png");
+    }
+
+    .row {
+        margin: 0 auto;
+    }
+
+}
+
+.triangle {
+    width: 362px;
+    height: 75px;
+    border-left: 182px solid transparent;
+    border-right: 180px solid transparent;
+    border-top: 50px solid #fff;
+    margin: 0 auto;
+}
+
+/*section */
+#berlin {
+    min-height: 665px;
+    background-image: url("https://cdn.discordapp.com/attachments/497416706084306944/589864137006252032/berlin.png");
+}
+
+.vehicle {
+    width: 322px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-bottom: 35px;
+    margin: 0 auto;
+
+}
+
+#berlin p {
+    font-size: 10px;
+}
+
+#berlin img {
+    border-radius: 5px;
+}
+
+#berlin h3 {
+    text-align: center;
+    margin-top: 34px;
+
+}
+
+#berlin p {
+    text-align: center;
+}
+
+#berlin {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#berlin a {
+    width: 123px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+}
+
+.col {
+    float: left;
+    width: 28.33%;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.rip {
+    margin-top: 2px;
+}
+
+/* Clear floats after the columns */
+.rip:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+    .col {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+#berlin h2 {
+    margin: 0px 0px 61px 0px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 75px;
+
+}
+
+#johnsmith {
+    background-image: url("https://cdn.discordapp.com/attachments/497416706084306944/589891463861502189/johnsmith.png");
+    min-height: 474px;
+}
+
+#johnsmith h2 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 80px;
+}
+
+#johnsmith .lor {
+    color: white;
+    text-align: center;
+}
+
+#johnsmith .john {
+    color: white;
+
+}
+
+#johnsmith h4 {
+    font-size: 16px;
+}
+
+#johnsmith h6 {
+    font-size: 9px;
+
+}
+
+.johnsmithprofile {
+    text-align: center;
+}
+
+.profile {
+    text-align: center;
+    color: white;
+}
+
+#startjourney {
+    background-image: url("https://cdn.discordapp.com/attachments/497416706084306944/589891499743903852/bergjes.png");
+    height: 390px;
+    width: 100%;
+}
+
+#footer1 {
+    min-height: 321px;
+}
+
+.contact {
+    list-style: none;
+
+}
+
+#startjourney {
+    background-image: url("../img/bergjes.png");
+    height: 390px;
+    width: 100%;
+}
+
+#footer1 {
+    min-height: 321px;
+}
+
+.contact {
+    list-style: none;
+
+}
+
+.fa-envelope {
+    font-size: 35px;
+}
+
+.fa-mobile-alt {
+    font-size: 35px;
+}
+
+.fa-map-marked-alt {
+    font-size: 35px;
+}
+
+.left {
+    float: left;
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+.center {
+    float: left;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.right {
+    float: left;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.bolletjes {
+    white-space: nowrap;
+    clear: both;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.bolletjes img {
+    width: 54px;
+    min-height: 54px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+footer {
+    width: 100%;
+    min-height: 145px;
+    ;
+    text-align: center;
+    background-color: #f0d839;
+    padding-top: 68px;
+}
+
+#newyork {
+    width: 100%;
+}
+
+.backgroundimg {
+    background-image: url("https://cdn.discordapp.com/attachments/497416706084306944/589896258668462100/gekkezwembad.png");
+    min-height: 536px;
+    width: 62.8125%;
+    background-image: no-repeat;
+    margin-left: 5.3125%;
+    margin-top: 6.40625%;
+    margin-bottom: 6.40625%;
+}
+
+.booknow {
+    min-height: 356px;
+    width: 480px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    border-radius: 10px;
+    float: right;
+    margin-top: 40px;
+}
+
+.booknow h2 {
+    margin-left: 25px;
+    font-size: 39px;
+}
+
+.fa-paper-plane:before {
+    color: #00a4ff;
+    font-size: 35px;
+    flex-basis: 33.3333%;
+    align-items: stretch;
+    margin-right: 63px;
+
+}
+
+.fa-hotel:before {
+    color: #00a4ff;
+    font-size: 35px;
+    flex-basis: 33.3333%;
+    align-items: stretch;
+    margin-right: 63px;
+}
+
+.fa-bus:before {
+    color: #00a4ff;
+    font-size: 35px;
+    flex-basis: 33.3333%;
+    align-items: stretch;
+}
+
+.newyork_icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+#newyork a {
+    width: 123px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    color: black;
+    background-color: #ffdd00;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.newyorkparis {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.staying {
+    margin-left: 30px;
+}
+
+.newyork_icons {
+    list-style: none;
+}
+
+.newyork_lorem {
+    margin-left: 30px;
+}
+
+
+#status {
+    min-height: 543px;
+    display: inline-block;
+}
+
+#status .drive {
+    max-width: 600px;
+    min-height: 440px;
+    width: 65.3333%;
+    float: left;
+    margin-top: 70px;
+    background-color: #fff;
+
+}
+
+
+#status .surf {
+    float: left;
+    margin: 70px 37px 78px 141px;
+}
+
+#status h2 {
+    font-size: 18px;
+    text-align: start;
+    margin: 10px 0px 32px 0px;
+}
+
+#status p {
+    padding: 40px 0px 0px 0px;
+    font-size: 15px;
+}
+
+.margin {
+    margin-top: 55px;
+}
+
+@media screen and (max-width: 1200px) {
+    #status .drive {
+        width: 100%;
+    }
+
+
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/opdrachten.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/sticky.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Bartportfolio</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <nav>
+          <div id="navbar">
+            <a
+              class="active"
+              class="bartolicious"
+              class="logo"
+              href="javascript:void(0)"
+              >𝙱𝚊𝚛𝚝𝚘𝚕𝚒𝚌𝚒𝚘𝚞𝚜</a
+            >
+            <a class="home" href="index.html" href="javascript:void(0)">𝙷𝚘𝚖𝚎</a>
+            <a class="school" href="school.html" href="javascript:void(0)"
+              >𝚂𝚌𝚑𝚘𝚘𝚕</a
+            >
+            <a class="werk" href="werk.html" href="javascript:void(0)">𝚆𝚎𝚛𝚔</a>
+            <a class="gamen" href="gamen.html" href="javascript:void(0)"
+              >𝙶𝚊𝚖𝚎𝚗</a
+            >
+            <a class="vissen" href="vissen.html" href="javascript:void(0)"
+              >𝚅𝚒𝚜𝚜𝚎𝚗</a
+            >
+            <a class="voetbal" href="voetbal.html" href="javascript:void(0)"
+              >𝚅𝚘𝚎𝚝𝚋𝚊𝚕</a
+            >
+            <a
+              class="opdrachten"
+              href="opdrachten.html"
+              href="javascript:void(0)"
+              >𝙾𝚙𝚍𝚛𝚊𝚌𝚑𝚝𝚎𝚗</a
+            >
+            <a class="panel" href="" href="javascript:void(0)">𝙰𝚍𝚖𝚒𝚗𝙿𝚊𝚗𝚎𝚕</a>
+          </div>
+        </nav>
+
+        <section id="naam">
+          <div class="container">
+            <h1>Bartolicious</h1>
+          </div>
+        </section>
+      </header>
+
+      <section id="projecten">
+        <p class="projectcenter">𝙾𝚙𝚍𝚛𝚊𝚌𝚑𝚝𝚎𝚗</p>
+        <div class="opdrfoto">
+          <h2>Keuze 1.</h2>
+          <a href="opdrachten/webopdr4/index.html"
+            ><img class="opdracht" src="img/opdr1.jpg" alt="opdr"
+          /></a>
+          <h2>Keuze 2.</h2>
+          <a href="opdrachten/animatie/Eindopdracht/index.html"
+            ><img class="opdracht" src="img/opdr2.jpg" alt="opdr"
+          /></a>
+          <h2>Keuze 3.</h2>
+          <a href="opdrachten/webeind/index.html"
+            ><img class="opdracht" src="img/opdr3.jpg" alt="opdr"
+          /></a>
+          <h2>Keuze 4.</h2>
+          <a href="opdrachten/laravel/index.php"
+            ><img class="opdracht" src="img/opdr4.jpg" alt="opdr"
+          /></a>
+        </div>
+      </section>
+      <footer>
+        <div class="footertext"><p>@𝙱𝚊𝚛𝚝𝚘𝚕𝚒𝚌𝚒𝚘𝚞𝚜 𝟸𝙼𝙳𝟷</p></div>
+      </footer>
+      <script>
+        window.onscroll = function() {
+          myFunction();
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>

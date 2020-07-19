@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/school.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Bartportfolio</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <nav>
+          <div id="navbar">
+            <a
+              class="active"
+              class="bartolicious"
+              class="logo"
+              href="javascript:void(0)"
+              >𝙱𝚊𝚛𝚝𝚘𝚕𝚒𝚌𝚒𝚘𝚞𝚜</a
+            >
+            <a class="home" href="index.html" href="javascript:void(0)">𝙷𝚘𝚖𝚎</a>
+            <a class="school" href="school.html" href="javascript:void(0)"
+              >𝚂𝚌𝚑𝚘𝚘𝚕</a
+            >
+            <a class="werk" href="werk.html" href="javascript:void(0)">𝚆𝚎𝚛𝚔</a>
+            <a class="gamen" href="gamen.html" href="javascript:void(0)"
+              >𝙶𝚊𝚖𝚎𝚗</a
+            >
+            <a class="vissen" href="vissen.html" href="javascript:void(0)"
+              >𝚅𝚒𝚜𝚜𝚎𝚗</a
+            >
+            <a class="voetbal" href="voetbal.html" href="javascript:void(0)"
+              >𝚅𝚘𝚎𝚝𝚋𝚊𝚕</a
+            >
+            <a class="panel" href="" href="javascript:void(0)">𝙰𝚍𝚖𝚒𝚗𝙿𝚊𝚗𝚎𝚕</a>
+            <a
+              class="opdrachten"
+              href="opdrachten.html"
+              href="javascript:void(0)"
+              >𝙾𝚙𝚍𝚛𝚊𝚌𝚑𝚝𝚎𝚗</a
+            >
+          </div>
+        </nav>
+
+        <section id="naam">
+          <div class="container">
+            <h1>Bartolicious</h1>
+          </div>
+        </section>
+      </header>
+
+      <section id="projecten">
+        <p class="projectcenter">𝚂𝚌𝚑𝚘𝚘𝚕</p>
+        <img class="franciscus" src="img/fra.jpg" alt="school" />
+        <p class="fratxt">
+          Dit was de basisschool waar ik naartoe ging, ik heb hier veel
+          meegemaakt. Ik vond het altijd leuk om te voetballen op het
+          schoolplein en om te knikkeren met vrienden. Een van mijn favoriete
+          school onderdelen was toch echt wel gym, ik had een hele aardige
+          docent die ik af en toe boos kreeg doordat ik een voetbal te hard
+          trapte in de gymzaal. Ook heb ik veel steun en hulp gekregen van de
+          school toen mijn vader was overleden. Verder heb ik het er altijd heel
+          gezellig gehad en nooit ruzie gehad met anderen.
+        </p>
+        <img class="rientjesmavo" src="img/rie.jpg" alt="school" />
+        <p class="rietxt">
+          Dit was de middelbare school waar ik naartoe ging, mijn zus, moeder en
+          tante hebben hier ook op school gezeten. Ik voelde me nooit echt op
+          mijn plek in het VMBO alles was altijd te makkelijk. Leerjaar 1 was
+          mijn slechtste leerjaar als ik naar mijn cijfers terugkijk. Frans was
+          vooral het minst leuke vak op school, ik vond het altijd nutteloos.
+          Leerjaar 2 en 3 gingen vele malen beter. Wiskunde en Engels was ik
+          altijd erg goed in, ik ging mijn examen jaar in met twee negens voor
+          de vakken. Ik had zo'n goed rapport van klas 3 naar 4 dat ik eigenlijk
+          al wist dat ik was geslaagd, zolang ik maar boven de 5,5 gemiddeld
+          bleef. Ook net zoals op de basisschool was gym weer een van mijn
+          favoriete vakken maar nu met Engels en Wiskunde erbij. Gym heb ik
+          uiteindelijk afgesloten met een 9,6.
+        </p>
+        <img class="glu" src="img/school.jpg" alt="school" />
+        <p class="glutxt">
+          Dit is de school waar ik nu op zit. Het eerste leerjaar was echt een
+          verassingspunt voor mij want ik wist niet precies wat mij te wachten
+          stond. Plannen was zeker niet mijn sterkste punt hierdoor kwam ik vaak
+          zoals bijvoorbeeld nu tijdens het maken van deze website in tijdsnood.
+          Ik deed altijd alles aan het eind van de periode. Leerjaar 1 beviel me
+          wel, leerjaar 2 tot zo ver wat minder. Ik hoop dat ik deze opleiding
+          haal aangezien ik mijn toekomst niet in dit vakgebied zie, zelf weet
+          ik ook nog niet wat ik mezelf wel zie doen. Maar tot die tijd moet ik
+          goede cijfers blijven halen en gewoon voor mijn diploma gaan aangezien
+          ik niet twee schooljaren wil weg gooien. Nu nog even genieten van het
+          leuke moment van de opleiding zoals naar Praag gaan. Verder valt er
+          niet zoveel meer te vertellen over mijn ervaring van de opleiding.
+        </p>
+      </section>
+      <footer>
+        <div class="footertext"><p>@𝙱𝚊𝚛𝚝𝚘𝚕𝚒𝚌𝚒𝚘𝚞𝚜 𝟸𝙼𝙳𝟷</p></div>
+      </footer>
+      <script>
+        window.onscroll = function() {
+          myFunction();
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>

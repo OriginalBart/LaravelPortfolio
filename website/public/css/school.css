@@ -1,0 +1,665 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+#container {
+  max-width: 1920px;
+  height: 1080px;
+  width: 100%;
+}
+
+.headervid {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav li a {
+  font-size: 20px;
+  color: white;
+  float: right;
+  padding-right: 50px;
+}
+
+nav {
+  padding-bottom: 15px;
+  background-color: black;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+}
+
+#naam {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 22px 22px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#projecten {
+  width: 100%;
+  background-color: black;
+  margin-top: -5px;
+}
+
+.projectcenter {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  font-size: 30px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+/* Font */
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #272727;
+  font-family: "Quicksand", serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.btn {
+  color: black;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  border: solid black 1px;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+  padding-top: 50px;
+}
+
+.glu {
+  margin-top: 50px;
+  margin-bottom: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 500px;
+  border-bottom: solid white 1px;
+  border-top: solid white 1px;
+}
+
+.glutxt {
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-left: solid white 1px;
+  border-right: solid white 1px;
+}
+
+.rientjesmavo {
+  margin-top: 50px;
+  margin-bottom: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 500px;
+  border-bottom: solid white 1px;
+  border-top: solid white 1px;
+}
+
+.rietxt {
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-left: solid white 1px;
+  border-right: solid white 1px;
+}
+
+.franciscus {
+  margin-top: 50px;
+  margin-bottom: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 500px;
+  border-bottom: solid white 1px;
+  border-top: solid white 1px;
+}
+
+.fratxt {
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-left: solid white 1px;
+  border-right: solid white 1px;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+}
+
+.card_content {
+  padding: 1rem;
+}
+
+.card_title {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: black;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+.made_by {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+.opdrachtenborder {
+  border-bottom: solid black 1px;
+}
+
+#overmij {
+  padding-top: 30px;
+  width: 100%;
+  height: 500px;
+}
+
+.overmij {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+}
+
+.fotobart {
+  height: 379px;
+  width: 20%;
+  color: white;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 5%;
+  border-left: solid white 1px;
+  border-right: solid white 1px;
+}
+
+.overmijtekst {
+  height: 79.5%;
+  width: 65%;
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+  color: white;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 5%;
+  font-size: 23px;
+  font-family: Courier;
+}
+
+.overmijtekst h3 {
+  margin-top: 5px;
+}
+
+.overmijtekst p {
+  margin-top: 20px;
+}
+
+footer {
+  padding-top: 30px;
+  width: 100%;
+  float: left;
+}
+
+.footertext {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+  width: 100%;
+  float: left;
+}
+
+.footerlogo {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (max-width: 1810px) {
+  #overmij {
+    padding-bottom: 10px;
+    height: 700px;
+    width: 100%;
+  }
+
+  .overmijtekst {
+    margin-left: 15%;
+  }
+
+  .fotowidth {
+    width: 100%;
+  }
+
+  .fotobart {
+    width: 30%;
+    margin-left: 35%;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  #overmij {
+    height: 750px;
+  }
+
+  .fotobart {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 931px) {
+  #overmij {
+    height: 850px;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  #overmij {
+    height: 950px;
+  }
+  .fotobart {
+    width: 40%;
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .franciscus {
+    width: 70%;
+  }
+
+  .fratxt {
+    width: 70%;
+  }
+
+  .rientjesmavo {
+    width: 70%;
+  }
+
+  .rietxt {
+    width: 70%;
+  }
+
+  .glu {
+    width: 70%;
+  }
+
+  .glutxt {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  #navbar {
+    width: 100%;
+  }
+
+  #navbar a {
+    float: none;
+    padding: 5px 5px;
+  }
+
+  .panel {
+    float: left;
+    width: 100%;
+  }
+
+  .home {
+    float: left;
+    width: 100%;
+  }
+
+  .werk {
+    float: left;
+    width: 100%;
+  }
+
+  .gamen {
+    float: left;
+    width: 100%;
+  }
+
+  .voetbal {
+    float: left;
+    width: 100%;
+  }
+
+  .vissen {
+    float: left;
+    width: 100%;
+  }
+
+  .school {
+    float: left;
+    width: 100%;
+  }
+
+  .opdrachten {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #overmij {
+    height: 1050px;
+  }
+  .fotobart {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .franciscus {
+    width: 70%;
+    height: 350px;
+  }
+
+  .fratxt {
+    width: 70%;
+  }
+
+  .rientjesmavo {
+    width: 70%;
+    height: 350px;
+  }
+
+  .rietxt {
+    width: 70%;
+  }
+
+  .glu {
+    width: 70%;
+    height: 350px;
+  }
+
+  .glutxt {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  #overmij {
+    height: 1150px;
+  }
+  .fotobart {
+    width: 55%;
+    margin-left: 22.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #overmij {
+    height: 1250px;
+  }
+  .fotobart {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .franciscus {
+    width: 70%;
+    height: 250px;
+  }
+
+  .fratxt {
+    width: 70%;
+  }
+
+  .rientjesmavo {
+    width: 70%;
+    height: 250px;
+  }
+
+  .rietxt {
+    width: 70%;
+  }
+
+  .glu {
+    width: 70%;
+    height: 250px;
+  }
+
+  .glutxt {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 494px) {
+  #overmij {
+    height: 1350px;
+  }
+}
+
+@media only screen and (max-width: 448px) {
+  #overmij {
+    height: 1450px;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  #overmij {
+    height: 1550px;
+  }
+  .fotobart {
+    width: 65%;
+    margin-left: 17%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #overmij {
+    height: 1650px;
+  }
+}
+
+@media only screen and (max-width: 383px) {
+  #overmij {
+    height: 1750px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  #overmij {
+    height: 1850px;
+  }
+}
